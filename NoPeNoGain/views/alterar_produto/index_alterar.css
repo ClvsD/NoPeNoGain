@@ -1,0 +1,1102 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#mobile_dropdown{
+
+    display: none;
+}
+.invisible_submit_button{
+    
+    border: 0px solid #000;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+/* CSS RESET */
+
+@media only screen and (max-width: 319px) { 
+    
+    *{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 319px) and (max-width: 414px) { 
+
+    
+    /* Só funciona WEB */
+    #aside_opcoes{
+        height: 100vh;
+        background-color: rgb(250, 250, 250);
+        box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+        float: left;
+
+        display: none;
+    }
+    /* Só funciona WEB */
+
+
+    .fa-bars{
+        color: #fff;
+    }
+
+    #mobile_dropdown{
+        display: block;
+    }
+
+    #article_cadastro{
+
+        height: 100vh;
+        float: left;
+    }
+
+    #opcoes_produtos{
+
+        margin-top: 68px;
+    }
+
+    #header_cadastro{
+
+        height: 300px;
+        background-image: url(../../img/Header_01.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+        box-shadow: inset 0px 9px 0px 200px rgba(0, 0, 0, 0.58);
+        
+        
+       
+    }
+
+    .titulo_atual{
+
+        text-align: center;
+        color: #ffffff;
+        font-size: 50px;
+        padding-top: 80px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #conteudo_cadastro{
+
+        height: 80%;
+    }
+
+    .cadastro_div{
+        margin-top: 50PX;
+        height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .titulos_form{
+
+        font-size: 22px;
+        padding-left: 20px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+
+    #input_modelo{
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #input_marca{
+        margin-left: 16px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 23px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #input_tamanho{
+        margin-top: 50px;
+        margin-left: 18px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 23px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #input_quantidade{
+        margin-top: 90px;
+        margin-left: 24px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #input_tipo{
+
+        margin-top: 50px;
+        margin-left: 30px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 23px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+
+    }
+    
+    
+
+    #input_valorUnitario{
+        margin-top: 180px;
+        margin-left: 35px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    
+    #input_valorTotal{
+        margin-top: 50px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 20px;
+        font-weight: 300;
+        padding-right: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #botoes_div{
+        margin-top: 170px;
+        min-height: 230px;        
+    }
+    
+    #confirmar_cadastro_produto{
+
+        height: 60px;
+        border-radius: 25px;
+
+        background-color: #ffca37;
+        border: 0px solid #000;
+        color: #474c57;
+        font-size: 28px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-right: 35px;
+        margin-bottom: 30px;
+        transition: 0.5s;
+        
+    }
+
+    #confirmar_cadastro_produto:hover{
+        background-color: #ffac37;
+        color: #000;
+    }
+
+}
+
+@media only screen and (min-width: 415px) and (max-width: 767px) { 
+
+    /* Só funciona WEB */
+    #aside_opcoes{
+        height: 100vh;
+        background-color: rgb(250, 250, 250);
+        box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+        float: left;
+
+        display: none;
+    }
+    /* Só funciona WEB */
+
+
+    .fa-bars{
+        color: #fff;
+    }
+
+    #mobile_dropdown{
+        display: block;
+    }
+
+    #article_cadastro{
+
+        height: 100vh;
+        float: left;
+    }
+
+    #opcoes_produtos{
+
+        margin-top: 68px;
+    }
+
+    #header_cadastro{
+
+        height: 300px;
+        background-image: url(../../img/Header_01.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+        box-shadow: inset 0px 9px 0px 200px rgba(0, 0, 0, 0.58);
+        
+        
+       
+    }
+
+    .titulo_atual{
+
+        text-align: center;
+        color: #ffffff;
+        font-size: 50px;
+        padding-top: 80px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #conteudo_cadastro{
+
+        height: 80%;
+    }
+
+    .cadastro_div{
+        margin-top: 50PX;
+        height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .titulos_form{
+
+        font-size: 22px;
+        padding-left: 20px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+
+    #input_modelo{
+        margin-left: 10px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #input_marca{
+        margin-left: 26px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 23px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #input_tamanho{
+        margin-top: 50px;
+        margin-left: 30px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #input_quantidade{
+        margin-top: 90px;
+        margin-left: 37px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #input_tipo{
+
+        margin-top: 50px;
+        margin-left: 38px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 23px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+
+    }
+    
+    
+
+    #input_valorUnitario{
+        margin-top: 180px;
+        margin-left: 50px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    
+    #input_valorTotal{
+        margin-top: 50px;
+        margin-left: 10px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 20px;
+        font-weight: 300;
+        padding-right: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #botoes_div{
+        margin-top: 170px;
+        min-height: 230px;        
+    }
+    
+    #confirmar_cadastro_produto{
+
+        height: 60px;
+        border-radius: 25px;
+
+        background-color: #ffca37;
+        border: 0px solid #000;
+        color: #474c57;
+        font-size: 28px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-right: 35px;
+        margin-bottom: 30px;
+        transition: 0.5s;
+        
+    }
+
+    #confirmar_cadastro_produto:hover{
+        background-color: #ffac37;
+        color: #000;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1112px) { 
+
+    /* Só funciona WEB */
+    #aside_opcoes{
+        height: 100vh;
+        background-color: rgb(250, 250, 250);
+        box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+        float: left;
+
+        display: none;
+    }
+    /* Só funciona WEB */
+
+
+    .fa-bars{
+        color: #fff;
+    }
+
+    #mobile_dropdown{
+        display: block;
+    }
+
+    #article_cadastro{
+
+        height: 100vh;
+        float: left;
+    }
+
+    #opcoes_produtos{
+
+        margin-top: 68px;
+    }
+
+    #header_cadastro{
+
+        height: 300px;
+        background-image: url(../../img/Header_01.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+        box-shadow: inset 0px 9px 0px 200px rgba(0, 0, 0, 0.58);
+        
+        
+       
+    }
+
+    .titulo_atual{
+
+        text-align: center;
+        color: #ffffff;
+        font-size: 50px;
+        padding-top: 80px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #conteudo_cadastro{
+
+        height: 80%;
+    }
+
+    .cadastro_div{
+        margin-top: 50PX;
+        height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .titulos_form{
+
+        font-size: 22px;
+        padding-left: 20px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+
+    #input_modelo{
+        margin-left: 10px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #input_marca{
+        margin-left: 26px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 23px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #input_tamanho{
+        margin-top: 50px;
+        margin-left: 60px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #input_quantidade{
+        margin-top: 90px;
+        margin-left: 33px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #input_tipo{
+
+        margin-top: 50px;
+        margin-left: 42px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 23px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+
+    }
+    
+    
+
+    #input_valorUnitario{
+        margin-top: 180px;
+        margin-left: 75px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    
+    #input_valorTotal{
+        margin-top: 50px;
+        margin-left: 40px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 20px;
+        font-weight: 300;
+        padding-right: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #botoes_div{
+        margin-top: 170px;
+        min-height: 230px;        
+    }
+    
+    #confirmar_cadastro_produto{
+
+        height: 60px;
+        border-radius: 25px;
+
+        background-color: #ffca37;
+        border: 0px solid #000;
+        color: #474c57;
+        font-size: 28px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-right: 35px;
+        margin-bottom: 30px;
+        transition: 0.5s;
+        
+    }
+
+    #confirmar_cadastro_produto:hover{
+        background-color: #ffac37;
+        color: #000;
+    }
+    
+}
+
+@media only screen and (min-width: 1113px) and (max-width: 1440px) { 
+    
+    #aside_opcoes{
+        height: 100vh;
+        background-color: rgb(250, 250, 250);
+        box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+        float: left;
+    }
+    #div_logoff:hover{ color: #f00;}
+    #div_cadastro:hover{ color: #ffcc13;}
+    #div_alterar:hover{ color: #ffcc13;}
+    #div_listagem:hover{ color: #ffcc13;}
+    #div_excluir:hover{ color: #ffcc13;}
+
+    #div_logoff{
+
+        height: 80px;
+        text-align: center;
+        font-size: 22px;
+        padding-top: 25px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        transition: 1s;
+    }
+
+
+    #div_cadastro{
+
+        margin-top: 20px;
+        height: 60px;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 20px;
+        
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        transition: 1s;
+        
+    }
+
+    #div_alterar{
+
+        margin-top: 20px;
+        height: 60px;
+        text-align: center;
+        font-size: 20px;
+        color: #ffcc13;
+        padding-top: 20px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        transition: 1s;
+  
+    }
+
+    #div_listagem{
+
+        margin-top: 20px;
+        height: 60px;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 20px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        transition: 1s;
+
+    }
+
+    #div_excluir{
+
+        margin-top: 20px;
+        height: 60px;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 20px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        transition: 1s;
+
+    }
+
+    #article_cadastro{
+
+        height: 100vh;
+        float: left;
+    }
+
+    #opcoes_produtos{
+
+        margin-top: 68px;
+    }
+
+    #header_cadastro{
+
+        height: 150px;
+        background-image: url(../../img/Header_01.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+        box-shadow: inset 0px 9px 0px 200px rgba(0, 0, 0, 0.58);
+        
+        
+       
+    }
+
+    .titulo_atual{
+
+        text-align: center;
+        color: #ffffff;
+        font-size: 70px;
+        padding-top: 30px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #conteudo_cadastro{
+
+        height: 80%;
+    }
+
+    .cadastro_div{
+        margin-top: 10PX;
+        height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .titulos_form{
+
+        font-size: 22px;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+
+    #input_modelo{
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #input_marca{
+        margin-left: 16px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 23px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #input_tamanho{
+        margin-left: 16px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 23px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #input_tipo{
+
+        margin-left: 65px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 23px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+
+    }
+    
+    #input_quantidade{
+        margin-left: 40px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #input_valorUnitario{
+        margin-left: 20px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    
+    #input_valorTotal{
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 23px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #botoes_div{
+
+        min-height: 230px;        
+    }
+    
+    #confirmar_cadastro_produto{
+
+        height: 60px;
+        border-radius: 25px;
+
+        background-color: #ffca37;
+        border: 0px solid #000;
+        color: #474c57;
+        font-size: 28px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-right: 35px;
+        transition: 0.5s;
+    }
+
+    #confirmar_cadastro_produto:hover{
+        background-color: #ffac37;
+        color: #000;
+    }
+    
+}
+
+@media only screen and (min-width: 1441px) { 
+
+    #aside_opcoes{
+        width: 18%;
+        height: 100vh;
+        background-color: rgb(250, 250, 250);
+        box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+        float: left;
+    }
+    #div_logoff:hover{ color: #f00;}
+    #div_cadastro:hover{ color: #ffcc13;}
+    #div_alterar:hover{ color: #ffcc13;}
+    #div_listagem:hover{ color: #ffcc13;}
+    #div_excluir:hover{ color: #ffcc13;}
+
+    #div_logoff{
+
+        height: 80px;
+        text-align: center;
+        font-size: 32px;
+        padding-top: 25px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        transition: 1s;
+    }
+
+
+    #div_cadastro{
+
+        margin-top: 20px;
+        height: 60px;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 20px;
+        
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        transition: 1s;
+        
+    }
+
+    #div_alterar{
+
+        margin-top: 20px;
+        height: 60px;
+        text-align: center;
+        font-size: 20px;
+        color: #ffcc13;
+        padding-top: 20px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        transition: 1s;
+  
+    }
+
+    #div_listagem{
+
+        margin-top: 20px;
+        height: 60px;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 20px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        transition: 1s;
+
+    }
+
+    #div_excluir{
+
+        margin-top: 20px;
+        height: 60px;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 20px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        transition: 1s;
+
+    }
+
+    #article_cadastro{
+
+        width: 82%;
+        height: 100vh;
+        float: left;
+    }
+
+    #opcoes_produtos{
+
+        margin-top: 168px;
+    }
+
+    #header_cadastro{
+
+        height: 250px;
+        background-image: url(../../img/Header_01.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+        box-shadow: inset 0px 9px 0px 200px rgba(0, 0, 0, 0.58);
+        
+        
+       
+    }
+
+    .titulo_atual{
+
+        text-align: center;
+        color: #ffffff;
+        font-size: 70px;
+        padding-top: 80px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #conteudo_cadastro{
+
+        height: 35%;
+    }
+
+    .cadastro_div{
+        margin-top: 10PX;
+        height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .titulos_form{
+
+        font-size: 22px;
+        padding-top: 10px;
+        padding-left: 60px;
+        padding-right: 20px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+
+    #input_modelo{
+        margin-left: 40px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #input_marca{
+        margin-left: 56px;
+        margin-right: 56px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 23px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #input_tamanho{
+        margin-left: 50px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 23px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #input_tipo{
+
+        margin-left: 240px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 23px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+
+    }
+    
+    #input_quantidade{
+        margin-left: 145px;
+        margin-right: 56px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #input_valorUnitario{
+        margin-left: 122px;
+        margin-right: 56px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    
+    #input_valorTotal{
+        margin-left: 35px;
+        border: 2px solid #0000009b;
+        border-radius: 7px;
+        font-size: 23px;
+        font-weight: 300;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #botoes_div{
+
+        min-height: 330px;        
+    }
+    
+    #confirmar_cadastro_produto{
+
+        height: 60px;
+        border-radius: 25px;
+
+        background-color: #ffca37;
+        border: 0px solid #000;
+        color: #474c57;
+        font-size: 28px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-right: 95px;
+        transition: 0.5s;
+    }
+
+    #confirmar_cadastro_produto:hover{
+        background-color: #ffac37;
+        color: #000;
+    }
+    
+}
